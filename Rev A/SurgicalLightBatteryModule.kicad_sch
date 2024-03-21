@@ -1,0 +1,103 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "352d7abe-fc72-4473-8b68-62eecf44f496")
+	(paper "USLetter")
+	(title_block
+		(title "Main")
+	)
+	(lib_symbols)
+	(text "CHANGELOG/NOTES\n\nREV A: "
+		(exclude_from_sim no)
+		(at 19.685 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fba33dfb-ab80-431d-9e1c-7f90a16c8c17")
+	)
+	(sheet
+		(at 140.97 40.64)
+		(size 96.52 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8db93a2a-62fc-431e-980a-01e29b37dd8a")
+		(property "Sheetname" "battery_module_power"
+			(at 140.97 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery_module_power.kicad_sch"
+			(at 140.97 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SurgicalLightBatteryModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 41.91)
+		(size 85.09 46.99)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e5105b1-8c1f-4649-b5a7-96458368c4ee")
+		(property "Sheetname" "battery_module_analog"
+			(at 26.67 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery_module_analog.kicad_sch"
+			(at 26.67 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SurgicalLightBatteryModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
