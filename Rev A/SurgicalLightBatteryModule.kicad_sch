@@ -20,8 +20,8 @@
 		(uuid "fba33dfb-ab80-431d-9e1c-7f90a16c8c17")
 	)
 	(sheet
-		(at 140.97 40.64)
-		(size 96.52 48.26)
+		(at 113.03 24.13)
+		(size 148.59 128.27)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -32,7 +32,7 @@
 		)
 		(uuid "8db93a2a-62fc-431e-980a-01e29b37dd8a")
 		(property "Sheetname" "battery_module_power"
-			(at 140.97 39.9284 0)
+			(at 113.03 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Sheetfile" "battery_module_power.kicad_sch"
-			(at 140.97 89.4846 0)
+			(at 113.03 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58,7 +58,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 41.91)
+		(at 16.51 26.67)
 		(size 85.09 46.99)
 		(fields_autoplaced yes)
 		(stroke
@@ -70,7 +70,7 @@
 		)
 		(uuid "9e5105b1-8c1f-4649-b5a7-96458368c4ee")
 		(property "Sheetname" "battery_module_analog"
-			(at 26.67 41.1984 0)
+			(at 16.51 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "battery_module_analog.kicad_sch"
-			(at 26.67 89.4846 0)
+			(at 16.51 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
