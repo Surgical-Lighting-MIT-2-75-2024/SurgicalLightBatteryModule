@@ -3328,7 +3328,7 @@
 		)
 		(uuid "fe7da2fc-5941-4548-ad44-bb981000dcb5")
 	)
-	(label "VP Out"
+	(label "VPOut"
 		(at 115.57 95.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3361,7 +3361,7 @@
 		)
 		(uuid "2f6af84e-4bf6-42fe-acc1-d3884c090aa0")
 	)
-	(label "Pin 16"
+	(label "Pin16"
 		(at 113.03 171.45 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3383,7 +3383,7 @@
 		)
 		(uuid "4c3ef96c-4243-49e8-af1c-ad35174794ea")
 	)
-	(label "Pin 2"
+	(label "Pin2"
 		(at 71.12 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3416,7 +3416,7 @@
 		)
 		(uuid "4ff23254-ab8f-4897-b53d-0db3c7a04043")
 	)
-	(label "Pin 2"
+	(label "Pin2"
 		(at 43.18 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3438,7 +3438,7 @@
 		)
 		(uuid "78076477-d4fa-49ad-8711-c1cfd87ace59")
 	)
-	(label "Pin 1"
+	(label "Pin1"
 		(at 45.72 54.61 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3460,7 +3460,7 @@
 		)
 		(uuid "84da397c-c0c5-4c6b-b0cf-34126a489301")
 	)
-	(label "Pin 1"
+	(label "Pin1"
 		(at 115.57 82.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3471,7 +3471,7 @@
 		)
 		(uuid "852ad6b2-2fa5-49b0-b9b1-f14a50cb451e")
 	)
-	(label "Pin 16"
+	(label "Pin16"
 		(at 115.57 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3592,7 +3592,7 @@
 		)
 		(uuid "e8b67fe5-2bd2-426f-aa6c-fa2ce9dad5e6")
 	)
-	(label "VP Out"
+	(label "VPOut"
 		(at 205.74 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3603,7 +3603,7 @@
 		)
 		(uuid "f12c2c43-730a-447a-bd84-41ef604dbbe7")
 	)
-	(label "Pin 2"
+	(label "Pin2"
 		(at 115.57 80.01 0)
 		(fields_autoplaced yes)
 		(effects
