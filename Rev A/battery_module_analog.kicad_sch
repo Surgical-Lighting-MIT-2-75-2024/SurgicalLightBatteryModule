@@ -2161,12 +2161,6 @@
 		(uuid "14c03aeb-0ff4-4a6e-aca0-b2d6e2135e5e")
 	)
 	(junction
-		(at 36.83 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40bd41e4-8705-4ded-9723-cadc6f88a250")
-	)
-	(junction
 		(at 151.13 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2215,6 +2209,12 @@
 		(uuid "9fd1d631-0183-45ba-a26f-1b77a5ef89f7")
 	)
 	(junction
+		(at 36.83 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4f39f4a-6499-47d3-bd9e-0ab8e34889ce")
+	)
+	(junction
 		(at 162.56 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2225,12 +2225,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b98d4a6a-9d0b-44b9-a7d2-d6055c1b171d")
-	)
-	(junction
-		(at 120.65 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7ac8b5b-b51f-4cc8-bc1f-480e001ff25c")
 	)
 	(junction
 		(at 241.3 99.06)
@@ -2245,28 +2239,22 @@
 		(uuid "ce725ff0-e4a0-449d-a8d4-316ea2a310cb")
 	)
 	(junction
-		(at 120.65 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6fa936a-745a-4582-8530-09e1dfd17072")
-	)
-	(junction
 		(at 251.46 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb3439d5-642e-4baf-9e30-c7889e3b8347")
 	)
 	(junction
-		(at 36.83 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4c275f9-951f-43d0-8ae1-9285e7c2b622")
-	)
-	(junction
 		(at 151.13 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9d54328-af52-403a-afc6-75148afbe323")
+	)
+	(junction
+		(at 120.65 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb8cb52e-2b62-4a57-8659-2d93f8336a3d")
 	)
 	(wire
 		(pts
@@ -2317,16 +2305,6 @@
 			(type default)
 		)
 		(uuid "0eb037f8-8516-4e65-8e30-7f456b2e0faf")
-	)
-	(wire
-		(pts
-			(xy 36.83 54.61) (xy 36.83 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12513ebc-75a2-4c83-8893-f052766bdb7b")
 	)
 	(wire
 		(pts
@@ -2400,16 +2378,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 39.37) (xy 44.45 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2619841f-788f-4ade-919b-d8152659cbab")
-	)
-	(wire
-		(pts
 			(xy 173.99 147.32) (xy 181.61 147.32)
 		)
 		(stroke
@@ -2417,16 +2385,6 @@
 			(type default)
 		)
 		(uuid "266eeef1-f27b-407b-92d7-888e5793c0a2")
-	)
-	(wire
-		(pts
-			(xy 36.83 50.8) (xy 36.83 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "272fd9c3-8660-4bef-ab20-383a1476292c")
 	)
 	(wire
 		(pts
@@ -2480,6 +2438,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 41.91) (xy 36.83 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "300ea9aa-a156-4bb4-9491-96ba62407768")
+	)
+	(wire
+		(pts
 			(xy 151.13 170.18) (xy 151.13 173.99)
 		)
 		(stroke
@@ -2520,16 +2488,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 168.91) (xy 120.65 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40997d52-2fe0-4c68-9ed2-1cf3aa4ee12b")
-	)
-	(wire
-		(pts
 			(xy 223.52 78.74) (xy 223.52 81.28)
 		)
 		(stroke
@@ -2567,6 +2525,16 @@
 			(type default)
 		)
 		(uuid "514f01b8-9d71-48a9-aa7c-16feace91293")
+	)
+	(wire
+		(pts
+			(xy 36.83 39.37) (xy 36.83 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e1c1ea-a9ab-4264-8592-29317bad4b3a")
 	)
 	(wire
 		(pts
@@ -2770,7 +2738,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 68.58) (xy 36.83 71.12)
+			(xy 36.83 52.07) (xy 36.83 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2890,16 +2858,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 158.75) (xy 120.65 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a12315cf-8873-43b5-80e1-f4ed22f96e95")
-	)
-	(wire
-		(pts
 			(xy 115.57 92.71) (xy 124.46 92.71)
 		)
 		(stroke
@@ -2907,16 +2865,6 @@
 			(type default)
 		)
 		(uuid "a17ecff9-3962-4acd-aaae-db770217b5d8")
-	)
-	(wire
-		(pts
-			(xy 36.83 39.37) (xy 44.45 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a56697d1-48cf-4177-a87a-7d18f0160060")
 	)
 	(wire
 		(pts
@@ -2950,7 +2898,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 165.1) (xy 130.81 165.1)
+			(xy 124.46 165.1) (xy 132.08 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2960,7 +2908,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 54.61) (xy 45.72 54.61)
+			(xy 36.83 41.91) (xy 45.72 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2977,16 +2925,6 @@
 			(type default)
 		)
 		(uuid "ad86ac4d-91c6-4616-af4d-f48767dd971c")
-	)
-	(wire
-		(pts
-			(xy 120.65 158.75) (xy 120.65 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae0af344-bbd6-4834-b5a6-9d3844181fed")
 	)
 	(wire
 		(pts
@@ -3020,7 +2958,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 153.67) (xy 120.65 158.75)
+			(xy 120.65 153.67) (xy 120.65 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3130,6 +3068,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 171.45) (xy 132.08 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9921be-ecf8-42aa-a291-15f63a05eeb4")
+	)
+	(wire
+		(pts
 			(xy 149.86 67.31) (xy 137.16 67.31)
 		)
 		(stroke
@@ -3167,16 +3115,6 @@
 			(type default)
 		)
 		(uuid "d330c4b2-1034-46dc-9ae8-ee4d2365cabc")
-	)
-	(wire
-		(pts
-			(xy 36.83 39.37) (xy 36.83 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7c81065-888b-402f-9d1e-b7f8c72f4015")
 	)
 	(wire
 		(pts
@@ -3237,6 +3175,16 @@
 			(type default)
 		)
 		(uuid "ec24479e-eceb-4f5f-808a-9f9b0f8b490d")
+	)
+	(wire
+		(pts
+			(xy 132.08 165.1) (xy 132.08 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07f768a-8366-4304-88d2-151b7d36cc32")
 	)
 	(wire
 		(pts
@@ -3308,25 +3256,105 @@
 		)
 		(uuid "fbb14e85-0029-4aab-8ac1-f8f22b1ec0a0")
 	)
-	(wire
-		(pts
-			(xy 40.64 46.99) (xy 44.45 46.99)
+	(text "Voltage Sensing Circuit"
+		(exclude_from_sim no)
+		(at 61.468 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdc4b36a-dac7-4dc6-b31b-fedd55f2494a")
+		(uuid "402b48d3-805f-4f47-b09e-9832b7ba9db0")
 	)
-	(wire
-		(pts
-			(xy 130.81 165.1) (xy 130.81 158.75)
+	(text "Change potentiometer to voltage divider to get around 2.5 V. Assumed Vin = 14V"
+		(exclude_from_sim no)
+		(at 80.518 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "54a6c1cb-a4ce-4e2d-ac7d-99b5ec75e2ea")
+	)
+	(text "Add buck converter to go from solar to 12 V (LDO)"
+		(exclude_from_sim no)
+		(at 175.768 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(uuid "fe7da2fc-5941-4548-ad44-bb981000dcb5")
+		(uuid "5c666ab2-9010-4873-9016-5f183b43291a")
+	)
+	(text "Oscillation Frequency Control"
+		(exclude_from_sim no)
+		(at 264.922 123.952 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5edb9192-26ff-4e44-b4e8-121e694a0455")
+	)
+	(text "Fosc = 25 KHz"
+		(exclude_from_sim no)
+		(at 260.604 135.636 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c3a57c8-ce39-4261-8f97-2053af296bf2")
+	)
+	(text "Voltage Protection Circuit (VP)"
+		(exclude_from_sim no)
+		(at 226.822 59.182 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8aa6c700-69bd-43e5-bcad-f986c2a0139f")
+	)
+	(text "Note: Connect RV2 (2) to resistor and don't connect (3) to anything\n"
+		(exclude_from_sim no)
+		(at 109.474 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f89d1e9-b91f-42b7-a4e7-e551d7f61c09")
+	)
+	(text "Feedback Loop"
+		(exclude_from_sim no)
+		(at 61.468 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a843052f-f32e-42d2-b0f1-cac2128e1e5e")
+	)
+	(text "Current Sensing Circuit"
+		(exclude_from_sim no)
+		(at 122.428 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b54fde9a-bfdb-447b-85b6-ec20fe04df87")
+	)
+	(text "Note: Change Label Names\n"
+		(exclude_from_sim no)
+		(at 167.386 80.772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8f272f4-0c14-455b-a523-b07cecac6a95")
 	)
 	(label "VPOut"
 		(at 115.57 95.25 0)
@@ -3339,18 +3367,7 @@
 		)
 		(uuid "061705a2-4f97-4b3e-b5b9-51ab48c6d4cc")
 	)
-	(label "Feedback Loop"
-		(at 54.61 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1ec0597d-92ca-4f2f-839d-e1df9b571c10")
-	)
-	(label "5V"
+	(label "VREF"
 		(at 101.6 135.89 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3361,7 +3378,7 @@
 		)
 		(uuid "2f6af84e-4bf6-42fe-acc1-d3884c090aa0")
 	)
-	(label "Pin16"
+	(label "EA2+"
 		(at 113.03 171.45 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3372,7 +3389,7 @@
 		)
 		(uuid "3e5e0477-8471-446d-9b4b-320bd6ac1b02")
 	)
-	(label "2.5V"
+	(label "EA2-"
 		(at 115.57 87.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3383,7 +3400,7 @@
 		)
 		(uuid "4c3ef96c-4243-49e8-af1c-ad35174794ea")
 	)
-	(label "Pin2"
+	(label "EA1-"
 		(at 71.12 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3394,7 +3411,7 @@
 		)
 		(uuid "4c517802-acd7-4d28-8c41-633088e01c8d")
 	)
-	(label "5V"
+	(label "VREF"
 		(at 22.86 77.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3416,7 +3433,7 @@
 		)
 		(uuid "4ff23254-ab8f-4897-b53d-0db3c7a04043")
 	)
-	(label "Pin2"
+	(label "EA1-"
 		(at 43.18 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3427,7 +3444,7 @@
 		)
 		(uuid "50fa2e42-bf98-4b83-b03a-d77a26ea9d74")
 	)
-	(label "5V"
+	(label "VREF"
 		(at 115.57 92.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3438,8 +3455,8 @@
 		)
 		(uuid "78076477-d4fa-49ad-8711-c1cfd87ace59")
 	)
-	(label "Pin1"
-		(at 45.72 54.61 0)
+	(label "EA1+"
+		(at 45.72 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3449,7 +3466,7 @@
 		)
 		(uuid "78fc3da3-857a-48a0-bf92-3d8e781ca8ce")
 	)
-	(label "PMW Out"
+	(label "PWM Out"
 		(at 172.72 88.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3460,7 +3477,7 @@
 		)
 		(uuid "84da397c-c0c5-4c6b-b0cf-34126a489301")
 	)
-	(label "Pin1"
+	(label "EA1+"
 		(at 115.57 82.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3471,7 +3488,7 @@
 		)
 		(uuid "852ad6b2-2fa5-49b0-b9b1-f14a50cb451e")
 	)
-	(label "Pin16"
+	(label "EA2+"
 		(at 115.57 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3481,17 +3498,6 @@
 			(justify left bottom)
 		)
 		(uuid "8b50af60-e3a8-49d4-8a3a-7f81b1f07dbc")
-	)
-	(label "Voltage Sensing Circuit"
-		(at 52.07 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e0f330d-89ac-4f38-a2fc-7123e3ae042f")
 	)
 	(label "RT"
 		(at 115.57 100.33 0)
@@ -3504,18 +3510,7 @@
 		)
 		(uuid "9226052c-6a39-4008-b6ba-d724a90d0e42")
 	)
-	(label "Voltage Protection Circuit (VP)"
-		(at 224.79 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9a72b2b-5358-420a-9118-b2540d0613a9")
-	)
-	(label "2.5V"
+	(label "EA2-"
 		(at 104.14 148.59 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3525,28 +3520,6 @@
 			(justify left bottom)
 		)
 		(uuid "aae2c384-6715-42e8-b24f-295a4bbda54b")
-	)
-	(label "Current Sensing Circuit"
-		(at 111.76 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac0635f5-dfda-4490-ba4b-0c8d72db0999")
-	)
-	(label "Current F osc = 25 KHz"
-		(at 251.46 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce93ad98-14e3-46f3-92eb-a2e99cf9b79a")
 	)
 	(label "CT"
 		(at 245.11 124.46 0)
@@ -3559,7 +3532,7 @@
 		)
 		(uuid "d65cba6d-5027-4a9c-ad3d-7d986941b8c4")
 	)
-	(label "5V"
+	(label "VREF"
 		(at 215.9 64.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3581,17 +3554,6 @@
 		)
 		(uuid "e3ea1b45-58cf-47cb-9be4-bea0483bc487")
 	)
-	(label "Oscillation Frequency Control"
-		(at 251.46 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8b67fe5-2bd2-426f-aa6c-fa2ce9dad5e6")
-	)
 	(label "VPOut"
 		(at 205.74 86.36 0)
 		(fields_autoplaced yes)
@@ -3603,7 +3565,7 @@
 		)
 		(uuid "f12c2c43-730a-447a-bd84-41ef604dbbe7")
 	)
-	(label "Pin2"
+	(label "EA1-"
 		(at 115.57 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3636,7 +3598,7 @@
 		)
 		(uuid "fbb0ad3f-6246-40f9-885c-bc24abba2498")
 	)
-	(global_label "Battery (-Terminal)"
+	(global_label "BAT-"
 		(shape input)
 		(at 181.61 147.32 0)
 		(fields_autoplaced yes)
@@ -3648,7 +3610,7 @@
 		)
 		(uuid "97f5f658-fb48-4b8e-8b54-86d68809ecb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.6451 147.32 0)
+			(at 189.4938 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,7 +3620,7 @@
 			)
 		)
 	)
-	(global_label "Battery (+Terminal)"
+	(global_label "BAT+"
 		(shape input)
 		(at 261.62 58.42 0)
 		(fields_autoplaced yes)
@@ -3670,7 +3632,7 @@
 		)
 		(uuid "ab3237c3-9fac-451f-bb50-64fe8856bb4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.6551 58.42 0)
+			(at 269.5038 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +3642,7 @@
 			)
 		)
 	)
-	(global_label "To Solar Input"
+	(global_label "SOLAR+"
 		(shape input)
 		(at 149.86 67.31 0)
 		(fields_autoplaced yes)
@@ -3692,7 +3654,7 @@
 		)
 		(uuid "adeaa005-784d-450d-9e22-9059066f63c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.6334 67.31 0)
+			(at 160.3443 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,7 +3664,7 @@
 			)
 		)
 	)
-	(global_label "Battery (+Terminal)"
+	(global_label "BAT+"
 		(shape input)
 		(at 49.53 25.4 0)
 		(fields_autoplaced yes)
@@ -3714,7 +3676,7 @@
 		)
 		(uuid "c17c628f-7d2c-484f-bba4-58b9a1968f85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.5651 25.4 0)
+			(at 57.4138 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,79 +3888,6 @@
 			(project "SurgicalLightBatteryModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496/9e5105b1-8c1f-4649-b5a7-96458368c4ee"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 36.83 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e82f2f6-dd4e-4bcc-8f7c-9ce4e7ba9f05")
-		(property "Reference" "RV1"
-			(at 34.29 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 34.29 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 36.83 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b94d7b68-de58-46a5-ab54-8c4ae90740ad")
-		)
-		(pin "1"
-			(uuid "9d760b0f-0b92-4f0f-8a90-923be9263299")
-		)
-		(pin "2"
-			(uuid "c0286894-394a-40a0-97d7-2550dd8b5e4d")
-		)
-		(instances
-			(project "SurgicalLightBatteryModule"
-				(path "/352d7abe-fc72-4473-8b68-62eecf44f496/9e5105b1-8c1f-4649-b5a7-96458368c4ee"
-					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -4279,7 +4168,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 71.12 0)
+		(at 36.83 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4288,7 +4177,7 @@
 		(fields_autoplaced yes)
 		(uuid "2711c507-83f6-4f68-b162-a466a7c75098")
 		(property "Reference" "#PWR018"
-			(at 36.83 77.47 0)
+			(at 36.83 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +4186,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 76.2 0)
+			(at 36.83 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,7 +4194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 71.12 0)
+			(at 36.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +4203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 71.12 0)
+			(at 36.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +4212,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 71.12 0)
+			(at 36.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,76 +4704,6 @@
 			(project "SurgicalLightBatteryModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496/9e5105b1-8c1f-4649-b5a7-96458368c4ee"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 36.83 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5989cd29-2f79-412a-9deb-10bd8df428e3")
-		(property "Reference" "R2"
-			(at 39.37 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6K8"
-			(at 39.37 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.052 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 36.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ded27098-602c-46be-a5bc-65e741a61a41")
-		)
-		(pin "2"
-			(uuid "ab954971-14f1-4837-aad3-a01164eeb0e3")
-		)
-		(instances
-			(project "SurgicalLightBatteryModule"
-				(path "/352d7abe-fc72-4473-8b68-62eecf44f496/9e5105b1-8c1f-4649-b5a7-96458368c4ee"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5448,6 +5267,76 @@
 			(project "SurgicalLightBatteryModule"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496/9e5105b1-8c1f-4649-b5a7-96458368c4ee"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8049cadd-2527-4716-af80-9924bc469811")
+		(property "Reference" "R2"
+			(at 39.37 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 39.37 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.052 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 36.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47b3e530-b001-44fd-9c06-6c1f0a27c83b")
+		)
+		(pin "1"
+			(uuid "1406d452-21bd-4031-a8dc-18e67f44be2d")
+		)
+		(instances
+			(project "SurgicalLightBatteryModule"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496/9e5105b1-8c1f-4649-b5a7-96458368c4ee"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6872,7 +6761,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "df9bd3ac-0fc3-4b49-80cc-baf1770fb3d1")
 		(property "Reference" "#PWR020"
 			(at 138.43 167.64 0)
@@ -6883,12 +6771,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 138.43 158.75 0)
+		(property "Value" "+5V"
+			(at 136.398 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
