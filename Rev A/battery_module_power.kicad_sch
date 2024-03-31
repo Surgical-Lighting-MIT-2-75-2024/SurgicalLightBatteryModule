@@ -2610,7 +2610,7 @@
 			)
 		)
 	)
-	(global_label "BuckConverterHighSideSwitch"
+	(global_label "BuckConverterSwitch"
 		(shape input)
 		(at 134.62 101.6 270)
 		(fields_autoplaced yes)
@@ -2622,7 +2622,7 @@
 		)
 		(uuid "f085f658-8085-404c-8cbd-4a78f8882fc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 132.5251 90)
+			(at 134.62 124.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
