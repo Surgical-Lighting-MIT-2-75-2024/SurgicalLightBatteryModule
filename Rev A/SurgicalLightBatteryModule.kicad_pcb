@@ -4777,6 +4777,112 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.5mm"
+		(layer "F.Cu")
+		(uuid "777e7a77-57c8-4802-a3c6-71278dd4197a")
+		(at 132.08 55.88)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(uuid "31828763-f2aa-4e94-b808-65bde0daf275")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.5mm"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(uuid "61b6554e-2571-47c7-afdc-22e70b88967b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5697d83-b1de-4eb9-bd45-6738b2614323")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17e993ba-7294-416b-85aa-c32ade4909b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03130db7-36ee-4b2f-8a9a-87510ff11f94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "a14611d2-8a72-4ce7-93f3-d77471c73bfd")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "8168a946-8c33-475c-aa1f-b1057961089e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "80c4587b-d395-4769-a095-69e3c068bf80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "46b26929-4626-4615-a897-0e8ce3e42533")
+		)
+	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "77dd3382-5f66-49a1-a4f0-527ea6c5d655")
@@ -5405,6 +5511,112 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.5mm"
+		(layer "F.Cu")
+		(uuid "860ac259-7a6f-4fd6-bb37-c1299a886cb9")
+		(at 198.12 121.92)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(uuid "aed5246c-59e8-4847-baa7-23ca358fdaf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.5mm"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(uuid "55dbf24d-b13e-498b-90e3-a35205a8f7b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8450436-a544-46fb-b31d-94f1898226f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0b322d5-0708-43b2-98b6-94e6e9d2625f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e135857-630c-4fe7-a3ba-ac577595e267")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "3c06baee-13a5-4e81-894c-39c3fdfbf94f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "f78d081e-fbf4-4b25-b689-c542673d5fd9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "dc6153d7-eca6-4657-8444-725d3f0a468e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7b1cfd04-67dd-434a-93cf-6c4d3dffc9c6")
 		)
 	)
 	(footprint "Package_DIP:DIP-16_W7.62mm_Socket"
@@ -10061,6 +10273,112 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.5mm"
+		(layer "F.Cu")
+		(uuid "d0e69871-d48f-4cd4-9737-762ac9cb0cd4")
+		(at 132.08 121.92)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(uuid "67d53397-9d69-44ba-a1ec-a85a02668a33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.5mm"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(uuid "e95bae3c-ec6a-4e28-bb81-a9f15752f2e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de0c2a94-de23-4612-91d0-86e1c4b3fb0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e0514e7-2eaa-488f-b5c4-b81eccd87090")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3a65342-aa37-4556-b5e0-87cf3b6a71c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "9437d44e-4099-4f5c-8e44-c5bccfa15353")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "de2affa4-50ca-40ad-9d3a-145d91a35b1d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "dbfd5ac3-9a63-4070-9616-083878126ffc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5e6485cc-c1a4-4b3b-b6c8-23d2b3d2667d")
+		)
+	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d264c44c-3a52-41f3-8611-5eaf103c6d33")
@@ -10689,6 +11007,112 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.5mm"
+		(layer "F.Cu")
+		(uuid "da328e67-1c96-419f-b526-f9b407156095")
+		(at 198.12 55.88)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(uuid "f181bffc-a7c7-4ed5-b02c-024fcfed90d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.5mm"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(uuid "4edf91a7-b670-402b-8922-48a4b3f5e782")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb6010ec-75f8-46ed-8f14-5ce7508f1521")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2b3fa3f-a730-4483-8aa8-7dd49e0fbb2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d331920b-2d8a-4339-8e25-a06e006d1ac9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "d2378e02-46fc-4001-b37c-1c889edaf4ac")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "d5d91d30-f61f-41c1-97ef-9592f3bdf849")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3fbfb6f9-4888-4a33-8da3-b6ad96c9d62c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7d298fdb-441f-4de0-8442-0f6c4ecc0d2c")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
@@ -12416,83 +12840,6 @@
 		)
 	)
 	(gr_rect
-		(start 136.1479 81.28)
-		(end 145.0379 101.5746)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "007dc5f5-fe09-473a-8ef9-710bb6b485f8")
-	)
-	(gr_rect
-		(start 153.3398 128.27)
-		(end 203.7334 144.2212)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "38aff734-72c8-4431-a5ec-973181b70d24")
-	)
-	(gr_rect
-		(start 130.7084 100.7924)
-		(end 152.146 145.3186)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "6e005d36-429e-40ac-999f-2b55e5ed75f9")
-	)
-	(gr_rect
-		(start 171.45 69.5722)
-		(end 217.043 93.1942)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "82937311-1623-4d3d-9d29-1fa567ca739d")
-	)
-	(gr_rect
-		(start 172.0118 96.1054)
-		(end 206.7844 124.8582)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "a8422fe5-0526-40c7-9fa5-bde94653f91a")
-	)
-	(gr_rect
-		(start 117.094 69.1642)
-		(end 148.7424 94.6658)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "c06b35f9-e00b-40b1-9f8e-499e22f0dfd0")
-	)
-	(gr_rect
-		(start 137.5764 47.5334)
-		(end 194.4216 66.2532)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "fa24d935-d437-4ed1-b588-727c581e8aa7")
-	)
-	(gr_rect
 		(start 127 50.8)
 		(end 203.2 127)
 		(stroke
@@ -12502,54 +12849,6 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "4aa36a9d-46f7-42b3-b1d0-5f75a0812391")
-	)
-	(gr_text "Buck Section\n"
-		(at 140.716 102.8954 0)
-		(layer "Dwgs.User")
-		(uuid "4659b482-3167-4acc-820e-670c0c76137e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Inputs Power Module"
-		(at 130.6658 146.6742 0)
-		(layer "Dwgs.User")
-		(uuid "4fbafa37-0ea2-4239-96b4-cdc221c39bb6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Oscillation Frequency parameters\n"
-		(at 143.2779 95.6818 90)
-		(layer "Dwgs.User")
-		(uuid "acf354b3-32b8-4b71-84f0-f2ba8a3bc6e4")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Power Output\n"
-		(at 173.4058 98.0694 0)
-		(layer "Dwgs.User")
-		(uuid "b382aa70-5a3a-4fd7-904c-962b41118cf5")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
 	)
 	(via
 		(at 171.323 76.708)
@@ -14310,7 +14609,7 @@
 		(net 1)
 		(net_name "GND")
 		(layer "F.Cu")
-		(uuid "1c73b533-fe24-4763-b140-a7458e7f2099")
+		(uuid "5254452a-04aa-4ffc-9441-375cf5a37904")
 		(hatch edge 0.5)
 		(priority 1)
 		(connect_pads
@@ -14603,7 +14902,38 @@
 			(pts
 				(xy 202.942539 51.020185) (xy 202.988294 51.072989) (xy 202.9995 51.1245) (xy 202.9995 126.6755)
 				(xy 202.979815 126.742539) (xy 202.927011 126.788294) (xy 202.8755 126.7995) (xy 127.3245 126.7995)
-				(xy 127.257461 126.779815) (xy 127.211706 126.727011) (xy 127.2005 126.6755) (xy 127.2005 91.8424)
+				(xy 127.257461 126.779815) (xy 127.211706 126.727011) (xy 127.2005 126.6755) (xy 127.2005 122.042026)
+				(xy 130.5295 122.042026) (xy 130.567678 122.283072) (xy 130.643097 122.515187) (xy 130.753896 122.732642)
+				(xy 130.897339 122.930076) (xy 130.897343 122.930081) (xy 131.069918 123.102656) (xy 131.069923 123.10266)
+				(xy 131.242136 123.227779) (xy 131.267361 123.246106) (xy 131.484815 123.356904) (xy 131.716924 123.432321)
+				(xy 131.957973 123.4705) (xy 131.957974 123.4705) (xy 132.202026 123.4705) (xy 132.202027 123.4705)
+				(xy 132.443076 123.432321) (xy 132.675185 123.356904) (xy 132.892639 123.246106) (xy 133.090083 123.102655)
+				(xy 133.262655 122.930083) (xy 133.406106 122.732639) (xy 133.516904 122.515185) (xy 133.592321 122.283076)
+				(xy 133.6305 122.042027) (xy 133.6305 122.042026) (xy 196.5695 122.042026) (xy 196.607678 122.283072)
+				(xy 196.683097 122.515187) (xy 196.793896 122.732642) (xy 196.937339 122.930076) (xy 196.937343 122.930081)
+				(xy 197.109918 123.102656) (xy 197.109923 123.10266) (xy 197.282136 123.227779) (xy 197.307361 123.246106)
+				(xy 197.524815 123.356904) (xy 197.756924 123.432321) (xy 197.997973 123.4705) (xy 197.997974 123.4705)
+				(xy 198.242026 123.4705) (xy 198.242027 123.4705) (xy 198.483076 123.432321) (xy 198.715185 123.356904)
+				(xy 198.932639 123.246106) (xy 199.130083 123.102655) (xy 199.302655 122.930083) (xy 199.446106 122.732639)
+				(xy 199.556904 122.515185) (xy 199.632321 122.283076) (xy 199.6705 122.042027) (xy 199.6705 121.797973)
+				(xy 199.632321 121.556924) (xy 199.556904 121.324815) (xy 199.446106 121.107361) (xy 199.316658 120.92919)
+				(xy 199.30266 120.909923) (xy 199.302656 120.909918) (xy 199.130081 120.737343) (xy 199.130076 120.737339)
+				(xy 198.932642 120.593896) (xy 198.932641 120.593895) (xy 198.932639 120.593894) (xy 198.715185 120.483096)
+				(xy 198.483076 120.407679) (xy 198.483074 120.407678) (xy 198.483072 120.407678) (xy 198.314769 120.381021)
+				(xy 198.242027 120.3695) (xy 197.997973 120.3695) (xy 197.942093 120.37835) (xy 197.756927 120.407678)
+				(xy 197.524812 120.483097) (xy 197.307357 120.593896) (xy 197.109923 120.737339) (xy 197.109918 120.737343)
+				(xy 196.937343 120.909918) (xy 196.937339 120.909923) (xy 196.793896 121.107357) (xy 196.683097 121.324812)
+				(xy 196.683096 121.324814) (xy 196.683096 121.324815) (xy 196.655399 121.410056) (xy 196.607678 121.556927)
+				(xy 196.5695 121.797973) (xy 196.5695 122.042026) (xy 133.6305 122.042026) (xy 133.6305 121.797973)
+				(xy 133.592321 121.556924) (xy 133.516904 121.324815) (xy 133.406106 121.107361) (xy 133.276658 120.92919)
+				(xy 133.26266 120.909923) (xy 133.262656 120.909918) (xy 133.090081 120.737343) (xy 133.090076 120.737339)
+				(xy 132.892642 120.593896) (xy 132.892641 120.593895) (xy 132.892639 120.593894) (xy 132.675185 120.483096)
+				(xy 132.443076 120.407679) (xy 132.443074 120.407678) (xy 132.443072 120.407678) (xy 132.274769 120.381021)
+				(xy 132.202027 120.3695) (xy 131.957973 120.3695) (xy 131.902093 120.37835) (xy 131.716927 120.407678)
+				(xy 131.484812 120.483097) (xy 131.267357 120.593896) (xy 131.069923 120.737339) (xy 131.069918 120.737343)
+				(xy 130.897343 120.909918) (xy 130.897339 120.909923) (xy 130.753896 121.107357) (xy 130.643097 121.324812)
+				(xy 130.643096 121.324814) (xy 130.643096 121.324815) (xy 130.615399 121.410056) (xy 130.567678 121.556927)
+				(xy 130.5295 121.797973) (xy 130.5295 122.042026) (xy 127.2005 122.042026) (xy 127.2005 91.8424)
 				(xy 143.238801 91.8424) (xy 143.238801 92.092386) (xy 143.249294 92.195097) (xy 143.304441 92.361519)
 				(xy 143.304443 92.361524) (xy 143.396484 92.510745) (xy 143.520454 92.634715) (xy 143.669675 92.726756)
 				(xy 143.66968 92.726758) (xy 143.836102 92.781905) (xy 143.836109 92.781906) (xy 143.938819 92.792399)
@@ -15491,8 +15821,38 @@
 				(xy 149.302354 63.640683) (xy 149.302343 63.640688) (xy 149.100706 63.749808) (xy 149.100695 63.749815)
 				(xy 148.919775 63.890631) (xy 148.919772 63.890634) (xy 148.764479 64.059326) (xy 148.639077 64.25127)
 				(xy 148.546976 64.461238) (xy 148.490692 64.683499) (xy 148.49069 64.683511) (xy 148.471758 64.911994)
-				(xy 148.471758 64.912005) (xy 127.2005 64.912005) (xy 127.2005 51.1245) (xy 127.220185 51.057461)
-				(xy 127.272989 51.011706) (xy 127.3245 51.0005) (xy 202.8755 51.0005)
+				(xy 148.471758 64.912005) (xy 127.2005 64.912005) (xy 127.2005 56.002026) (xy 130.5295 56.002026)
+				(xy 130.567678 56.243072) (xy 130.643097 56.475187) (xy 130.753896 56.692642) (xy 130.897339 56.890076)
+				(xy 130.897343 56.890081) (xy 131.069918 57.062656) (xy 131.069923 57.06266) (xy 131.242136 57.187779)
+				(xy 131.267361 57.206106) (xy 131.484815 57.316904) (xy 131.716924 57.392321) (xy 131.957973 57.4305)
+				(xy 131.957974 57.4305) (xy 132.202026 57.4305) (xy 132.202027 57.4305) (xy 132.443076 57.392321)
+				(xy 132.675185 57.316904) (xy 132.892639 57.206106) (xy 133.090083 57.062655) (xy 133.262655 56.890083)
+				(xy 133.406106 56.692639) (xy 133.516904 56.475185) (xy 133.592321 56.243076) (xy 133.6305 56.002027)
+				(xy 133.6305 56.002026) (xy 196.5695 56.002026) (xy 196.607678 56.243072) (xy 196.683097 56.475187)
+				(xy 196.793896 56.692642) (xy 196.937339 56.890076) (xy 196.937343 56.890081) (xy 197.109918 57.062656)
+				(xy 197.109923 57.06266) (xy 197.282136 57.187779) (xy 197.307361 57.206106) (xy 197.524815 57.316904)
+				(xy 197.756924 57.392321) (xy 197.997973 57.4305) (xy 197.997974 57.4305) (xy 198.242026 57.4305)
+				(xy 198.242027 57.4305) (xy 198.483076 57.392321) (xy 198.715185 57.316904) (xy 198.932639 57.206106)
+				(xy 199.130083 57.062655) (xy 199.302655 56.890083) (xy 199.446106 56.692639) (xy 199.556904 56.475185)
+				(xy 199.632321 56.243076) (xy 199.6705 56.002027) (xy 199.6705 55.757973) (xy 199.632321 55.516924)
+				(xy 199.556904 55.284815) (xy 199.446106 55.067361) (xy 199.427779 55.042136) (xy 199.30266 54.869923)
+				(xy 199.302656 54.869918) (xy 199.130081 54.697343) (xy 199.130076 54.697339) (xy 198.932642 54.553896)
+				(xy 198.932641 54.553895) (xy 198.932639 54.553894) (xy 198.715185 54.443096) (xy 198.483076 54.367679)
+				(xy 198.483074 54.367678) (xy 198.483072 54.367678) (xy 198.314769 54.341021) (xy 198.242027 54.3295)
+				(xy 197.997973 54.3295) (xy 197.942093 54.33835) (xy 197.756927 54.367678) (xy 197.524812 54.443097)
+				(xy 197.307357 54.553896) (xy 197.109923 54.697339) (xy 197.109918 54.697343) (xy 196.937343 54.869918)
+				(xy 196.937339 54.869923) (xy 196.793896 55.067357) (xy 196.683097 55.284812) (xy 196.607678 55.516927)
+				(xy 196.5695 55.757973) (xy 196.5695 56.002026) (xy 133.6305 56.002026) (xy 133.6305 55.757973)
+				(xy 133.592321 55.516924) (xy 133.516904 55.284815) (xy 133.406106 55.067361) (xy 133.387779 55.042136)
+				(xy 133.26266 54.869923) (xy 133.262656 54.869918) (xy 133.090081 54.697343) (xy 133.090076 54.697339)
+				(xy 132.892642 54.553896) (xy 132.892641 54.553895) (xy 132.892639 54.553894) (xy 132.675185 54.443096)
+				(xy 132.443076 54.367679) (xy 132.443074 54.367678) (xy 132.443072 54.367678) (xy 132.274769 54.341021)
+				(xy 132.202027 54.3295) (xy 131.957973 54.3295) (xy 131.902093 54.33835) (xy 131.716927 54.367678)
+				(xy 131.484812 54.443097) (xy 131.267357 54.553896) (xy 131.069923 54.697339) (xy 131.069918 54.697343)
+				(xy 130.897343 54.869918) (xy 130.897339 54.869923) (xy 130.753896 55.067357) (xy 130.643097 55.284812)
+				(xy 130.567678 55.516927) (xy 130.5295 55.757973) (xy 130.5295 56.002026) (xy 127.2005 56.002026)
+				(xy 127.2005 51.1245) (xy 127.220185 51.057461) (xy 127.272989 51.011706) (xy 127.3245 51.0005)
+				(xy 202.8755 51.0005)
 			)
 		)
 	)
