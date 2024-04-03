@@ -188,8 +188,7 @@
         0.25,
         0.3,
         0.5,
-        1.0,
-        6.0
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -460,7 +459,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SurgicalLightBatteryModule.kicad_pro",
+    "filename": "SurgicalLightBatteryModule (first version).kicad_pro",
     "version": 1
   },
   "net_settings": {
