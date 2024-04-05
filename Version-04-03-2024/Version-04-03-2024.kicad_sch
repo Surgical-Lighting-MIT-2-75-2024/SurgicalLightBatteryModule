@@ -261,6 +261,125 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1769,6 +1888,108 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3564,6 +3785,12 @@
 		(uuid "b62db055-4cfc-435f-b85a-fec4e434798b")
 	)
 	(junction
+		(at 240.03 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c40edb1c-914a-45de-927a-bb76f2f658fa")
+	)
+	(junction
 		(at 55.88 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3608,6 +3835,16 @@
 			(type default)
 		)
 		(uuid "09844e7e-b10d-4181-91f1-c01e4dae2bc1")
+	)
+	(wire
+		(pts
+			(xy 238.76 58.42) (xy 238.76 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a5d1301-c7cf-48af-94ff-b0b1bb9a4c13")
 	)
 	(wire
 		(pts
@@ -4151,6 +4388,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 27.94) (xy 238.76 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e261e07-7519-4ccd-9427-d94f1d82dc48")
+	)
+	(wire
+		(pts
 			(xy 185.42 41.91) (xy 196.85 41.91)
 		)
 		(stroke
@@ -4611,6 +4858,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 76.2) (xy 245.11 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e189733-30c0-483b-9b48-1ddb504ab5c2")
+	)
+	(wire
+		(pts
 			(xy 66.04 149.86) (xy 69.85 149.86)
 		)
 		(stroke
@@ -4731,6 +4988,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 43.18) (xy 238.76 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb96c13-3fa8-417d-b906-740fbb2f1fce")
+	)
+	(wire
+		(pts
 			(xy 66.04 162.56) (xy 66.04 186.69)
 		)
 		(stroke
@@ -4738,6 +5005,16 @@
 			(type default)
 		)
 		(uuid "8df6984f-8f17-4d75-b3c3-d542e29bef73")
+	)
+	(wire
+		(pts
+			(xy 238.76 31.75) (xy 245.11 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9abbc7-4b90-4aa8-bfd8-ace2137043de")
 	)
 	(wire
 		(pts
@@ -4991,6 +5268,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 72.39) (xy 238.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8dfe6d-86c9-4386-bf50-12b338886d4b")
+	)
+	(wire
+		(pts
 			(xy 88.9 41.91) (xy 114.3 41.91)
 		)
 		(stroke
@@ -5151,6 +5438,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 46.99) (xy 245.11 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5901b01-971e-47bd-9757-2ae812be309a")
+	)
+	(wire
+		(pts
 			(xy 185.42 59.69) (xy 185.42 64.77)
 		)
 		(stroke
@@ -5158,6 +5455,16 @@
 			(type default)
 		)
 		(uuid "da8da55d-be68-4c77-864d-0e9ff0d3f81b")
+	)
+	(wire
+		(pts
+			(xy 238.76 62.23) (xy 245.11 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db021874-24be-41bd-a126-7d574867aaf4")
 	)
 	(wire
 		(pts
@@ -5370,6 +5677,18 @@
 		(uuid "ff81350d-6fb6-4fa6-a807-3088bae21c0d")
 	)
 	(rectangle
+		(start 233.68 12.7)
+		(end 265.43 87.63)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0f3ddbcd-cae6-4502-acb0-df0aa2d4bb09)
+	)
+	(rectangle
 		(start 12.7 12.7)
 		(end 231.14 91.44)
 		(stroke
@@ -5429,6 +5748,18 @@
 		)
 		(uuid 979edbef-b9f4-4ff1-9fc4-a5d9b1e54355)
 	)
+	(rectangle
+		(start 92.71 160.02)
+		(end 157.48 201.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e5978bb9-e7d1-425c-b162-cd6f24b17835)
+	)
 	(text "Voltage Protection Circuit (VP)"
 		(exclude_from_sim no)
 		(at 41.402 143.002 0)
@@ -5459,6 +5790,16 @@
 		)
 		(uuid "88e2d84b-98d5-4e62-8711-6da9db769c55")
 	)
+	(text "Header Connection (MCU Input)\n"
+		(exclude_from_sim no)
+		(at 108.966 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9776d0b4-1e29-463f-88ff-f08a9511fe97")
+	)
 	(text "Current Sensing Circuit"
 		(exclude_from_sim no)
 		(at 195.58 95.758 0)
@@ -5468,6 +5809,16 @@
 			)
 		)
 		(uuid "98fbbb5d-d0a3-4cd7-b624-f3825476fe1f")
+	)
+	(text "Battery/Power Holes\n"
+		(exclude_from_sim no)
+		(at 245.872 15.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5d461d2-b794-496c-acb0-84717a01d766")
 	)
 	(text "Buck Converter\n"
 		(exclude_from_sim no)
@@ -5777,6 +6128,28 @@
 	)
 	(global_label "BAT+"
 		(shape input)
+		(at 245.11 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d865128-f091-48d3-a0a4-b596399073fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.9938 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT+"
+		(shape input)
 		(at 76.2 142.24 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5797,7 +6170,7 @@
 			)
 		)
 	)
-	(global_label "BatteryModuleVin"
+	(global_label "SOLAR+"
 		(shape input)
 		(at 33.02 41.91 180)
 		(fields_autoplaced yes)
@@ -5809,7 +6182,7 @@
 		)
 		(uuid "4c9a29cf-8d57-4fdd-8fcf-b33debc6774a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.8274 41.91 0)
+			(at 22.5357 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,7 +6192,7 @@
 			)
 		)
 	)
-	(global_label "VBattery"
+	(global_label "BAT+"
 		(shape input)
 		(at 218.44 41.91 0)
 		(fields_autoplaced yes)
@@ -5831,7 +6204,29 @@
 		)
 		(uuid "6180cdeb-7050-47de-a2f9-02c22bd429c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2266 41.91 0)
+			(at 226.3238 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT-"
+		(shape input)
+		(at 245.11 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78bc9814-ac2f-4115-9b6f-9b90617bd0e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.9938 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5887,6 +6282,28 @@
 	)
 	(global_label "MCU 2.5V"
 		(shape input)
+		(at 109.22 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1632581-61bd-4363-8ca0-ee64fcc5f861")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.3371 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU 2.5V"
+		(shape input)
 		(at 184.15 110.49 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5903,6 +6320,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SOLAR+"
+		(shape input)
+		(at 245.11 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef3b7462-da91-49e7-9ac2-7e46c064e36e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.5943 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5966,7 +6405,7 @@
 			(uuid "6675c6a0-c807-449c-bfa9-185dee06267a")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "F2")
 					(unit 1)
@@ -6036,7 +6475,7 @@
 			(uuid "645b0109-46d2-47ca-a0a3-ec7f88209cd8")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R45")
 					(unit 1)
@@ -6102,7 +6541,7 @@
 			(uuid "604004d3-dbbf-4c27-8324-d17a5f468e3d")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR035")
 					(unit 1)
@@ -6172,7 +6611,7 @@
 			(uuid "3d698f8f-902e-4435-bfbd-fb8060ed7a64")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R43")
 					(unit 1)
@@ -6244,7 +6683,7 @@
 			(uuid "8e46f5a6-91d5-4003-8088-9351bcfbef50")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "D3")
 					(unit 1)
@@ -6310,7 +6749,7 @@
 			(uuid "e211bcae-3ac8-4648-b13e-2bef5e6d43d9")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR032")
 					(unit 1)
@@ -6378,7 +6817,7 @@
 			(uuid "27d9bc92-876e-40b1-8bca-9a4304dbfded")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "C9")
 					(unit 1)
@@ -6448,7 +6887,7 @@
 			(uuid "bf5723ad-2b17-4817-8821-02adefc8c9f4")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R17")
 					(unit 1)
@@ -6518,7 +6957,7 @@
 			(uuid "9192c75d-d790-4777-a3fc-d4434e923680")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R2")
 					(unit 1)
@@ -6584,7 +7023,7 @@
 			(uuid "53b7c142-ef0a-468b-a598-b7dbd6a91fa5")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR031")
 					(unit 1)
@@ -6650,7 +7089,7 @@
 			(uuid "a2b17925-d4d6-4bc1-978a-961ff13e07e2")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR028")
 					(unit 1)
@@ -6716,7 +7155,7 @@
 			(uuid "ad1d1802-748a-4012-9d12-1a68662c7ee9")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR011")
 					(unit 1)
@@ -6786,7 +7225,7 @@
 			(uuid "3589d2f0-dc80-4f1f-892b-d1a67ef868db")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R40")
 					(unit 1)
@@ -6856,7 +7295,7 @@
 			(uuid "55b8cc78-aa22-4fd7-a4e8-164948ab14ec")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "C10")
 					(unit 1)
@@ -6926,7 +7365,7 @@
 			(uuid "dba57be6-de5c-4e70-bb40-4a3c499fa1ce")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R10")
 					(unit 1)
@@ -6992,7 +7431,7 @@
 			(uuid "4d14c3e4-0ae9-444e-98eb-cfd51cd88325")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR033")
 					(unit 1)
@@ -7058,7 +7497,7 @@
 			(uuid "127a9ea0-62c2-43ef-aaf8-d51b25ff2adf")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR02")
 					(unit 1)
@@ -7128,7 +7567,7 @@
 			(uuid "e039b885-3ee7-4264-8f1f-d4ce8c38e902")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R31")
 					(unit 1)
@@ -7202,7 +7641,7 @@
 			(uuid "a7fbc703-e0db-40a2-a714-e21b4066c8c7")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "Q9")
 					(unit 1)
@@ -7268,7 +7707,7 @@
 			(uuid "a7dabddf-6f0c-4ce0-9dfd-b9a8c321b2ce")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR034")
 					(unit 1)
@@ -7338,7 +7777,7 @@
 			(uuid "4a179259-c266-4c3e-a197-f0280fc6a823")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "C2")
 					(unit 1)
@@ -7404,9 +7843,76 @@
 			(uuid "4f45aa6f-d10d-4977-8088-b22392d7d4c8")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 238.76 40.64 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3daca220-6a2e-4543-b717-b30b65ea61a8")
+		(property "Reference" "H2"
+			(at 241.3 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3 Hole"
+			(at 241.3 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63ad99ac-101c-4a92-8eb8-0b24154ba69f")
+		)
+		(instances
+			(project "Version-04-03-2024"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7476,7 +7982,7 @@
 			(uuid "e3df47c5-1286-4206-9f90-f750ee8607bf")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "D10")
 					(unit 1)
@@ -7542,7 +8048,7 @@
 			(uuid "09157211-b66b-4914-9363-cfe4c29f5411")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR012")
 					(unit 1)
@@ -7608,7 +8114,7 @@
 			(uuid "9eef80c7-4391-467f-b5e0-924a17c9b7f6")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR04")
 					(unit 1)
@@ -7674,7 +8180,7 @@
 			(uuid "a72f6b53-a785-4375-8625-2e89c361ba51")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR010")
 					(unit 1)
@@ -7741,7 +8247,7 @@
 			(uuid "0a02a86e-a9ea-4de9-b58b-a0dcaf2c07f1")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R37")
 					(unit 1)
@@ -7807,7 +8313,7 @@
 			(uuid "3504b160-a776-4403-a7a4-75d93a15ef57")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR013")
 					(unit 1)
@@ -7883,7 +8389,7 @@
 			(uuid "d7f61d07-b3d2-4a0d-8cf7-b1f447914c88")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "Q6")
 					(unit 1)
@@ -7957,7 +8463,7 @@
 			(uuid "e40250db-90e6-428d-94fe-35ad4cb47f45")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "Q8")
 					(unit 1)
@@ -8027,7 +8533,7 @@
 			(uuid "d73f53b8-6e0b-48fa-b9fa-23494afdace8")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "D5")
 					(unit 1)
@@ -8093,7 +8599,7 @@
 			(uuid "a7d9f8f3-4b60-4e48-b4cf-9a49fe56ba75")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR08")
 					(unit 1)
@@ -8159,7 +8665,7 @@
 			(uuid "891ad81b-e53c-4593-a57a-84967d53e468")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR07")
 					(unit 1)
@@ -8225,7 +8731,7 @@
 			(uuid "8384b58f-5aae-4cba-a625-9c52de7ebde7")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR030")
 					(unit 1)
@@ -8292,7 +8798,7 @@
 			(uuid "da76854d-e3a5-470b-8b94-b25e477a27da")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R38")
 					(unit 1)
@@ -8366,9 +8872,74 @@
 			(uuid "1573b0b7-2345-4a5b-95e0-85c93fb0bf8b")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 104.14 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64f94af6-0ceb-4e95-a05f-780d3105e50f")
+		(property "Reference" "J1"
+			(at 104.775 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 104.775 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 104.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 104.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cff248dd-f01a-4415-95fa-8ac701d22e62")
+		)
+		(instances
+			(project "Version-04-03-2024"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8432,7 +9003,7 @@
 			(uuid "28906003-d382-4914-9183-05a897631c63")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR026")
 					(unit 1)
@@ -8502,7 +9073,7 @@
 			(uuid "7f24b47d-2e6d-4e72-b661-4945023fb81a")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "C14")
 					(unit 1)
@@ -8574,9 +9145,76 @@
 			(uuid "077777ad-b1d0-413a-ab8b-c68a4af0e4fa")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 238.76 55.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "724d86a8-641d-4c7a-b6df-80cef784fd67")
+		(property "Reference" "H3"
+			(at 241.3 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3 Hole"
+			(at 241.3 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 238.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 238.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7820191-50ee-4555-b6f9-1d738594be54")
+		)
+		(instances
+			(project "Version-04-03-2024"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -8644,9 +9282,75 @@
 			(uuid "3dbc38b1-98cf-45e4-bb3a-a97436da875b")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7917a455-5abb-4d4b-8d04-3f1110e569c9")
+		(property "Reference" "#PWR06"
+			(at 240.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c5d2fcb-0328-4d4f-b18d-82a112ee09f5")
+		)
+		(instances
+			(project "Version-04-03-2024"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8714,7 +9418,7 @@
 			(uuid "71611725-8ba0-49f8-9d3b-8f41ec72f34f")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R42")
 					(unit 1)
@@ -8781,7 +9485,7 @@
 			(uuid "5bf9c1cd-be66-448f-b43d-1f56a8f0aa44")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "F3")
 					(unit 1)
@@ -8847,7 +9551,7 @@
 			(uuid "95e999b9-d42e-4328-a715-d8ff32974b64")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR05")
 					(unit 1)
@@ -8935,7 +9639,7 @@
 			(uuid "a1dcfc9e-1690-436d-b661-43d3d333c0b8")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "U5")
 					(unit 3)
@@ -9023,7 +9727,7 @@
 			(uuid "3c713baf-0d13-43f9-8036-3177fdff6f61")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "D8")
 					(unit 1)
@@ -9088,7 +9792,7 @@
 			(uuid "e8f42f54-0165-477a-ad81-21321d7ff849")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR027")
 					(unit 1)
@@ -9158,7 +9862,7 @@
 			(uuid "493b1fe5-0ea3-4043-ac8d-8ab35e30f07f")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "D6")
 					(unit 1)
@@ -9226,7 +9930,7 @@
 			(uuid "18d881ef-d25b-47dc-9039-46e1b04372fb")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R9")
 					(unit 1)
@@ -9332,7 +10036,7 @@
 			(uuid "a2710e94-5833-4fe6-8d34-0b6e2d587b3b")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R41")
 					(unit 1)
@@ -9402,7 +10106,7 @@
 			(uuid "59352ec2-ca7d-40c8-9865-486246464ecc")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R7")
 					(unit 1)
@@ -9470,7 +10174,7 @@
 			(uuid "bde1e38e-0353-4e4d-a6cf-1e0e832a6d1e")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "C12")
 					(unit 1)
@@ -9536,7 +10240,7 @@
 			(uuid "4228eef3-fa63-4884-94e0-7f71bf9eb7c9")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR014")
 					(unit 1)
@@ -9606,7 +10310,7 @@
 			(uuid "ab55d3e4-fc91-436f-bc92-f91a83b2d5ac")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R44")
 					(unit 1)
@@ -9676,7 +10380,7 @@
 			(uuid "40c067d1-d365-479f-b9e2-b5a5f6ab9316")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "C6")
 					(unit 1)
@@ -9746,7 +10450,7 @@
 			(uuid "dedbf3e4-60be-4f8b-ae40-4d6d88c609ae")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "C7")
 					(unit 1)
@@ -9831,7 +10535,7 @@
 			(uuid "67d91135-99b7-49f5-9644-4c7c7f8c4626")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "U5")
 					(unit 1)
@@ -9900,7 +10604,7 @@
 			(uuid "c9dc56d6-c9ed-43ac-a10b-35be46eef708")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "D11")
 					(unit 1)
@@ -10012,7 +10716,7 @@
 			(uuid "6c863a65-883b-4490-a997-a2c8b3e490d0")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "U4")
 					(unit 1)
@@ -10077,7 +10781,7 @@
 			(uuid "b3b6cfa0-0618-4086-a0a5-f245baea926c")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR029")
 					(unit 1)
@@ -10147,7 +10851,7 @@
 			(uuid "c650731e-69ca-4fa2-8b73-5c5f9b415d8d")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "C13")
 					(unit 1)
@@ -10221,7 +10925,7 @@
 			(uuid "442e3a4b-2361-402e-95a0-a6119dbe395c")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "Q3")
 					(unit 1)
@@ -10291,7 +10995,7 @@
 			(uuid "a3976927-7acf-49de-9aa2-dc5912b87c0c")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R11")
 					(unit 1)
@@ -10363,7 +11067,7 @@
 			(uuid "410e0f13-6119-47b7-b60f-3f7cc5243ae7")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "D1")
 					(unit 1)
@@ -10433,7 +11137,7 @@
 			(uuid "90534aad-7b8a-486f-ba77-e06989167091")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "D9")
 					(unit 1)
@@ -10502,7 +11206,7 @@
 			(uuid "aebf082d-b296-4f79-8647-9550a5a3ee27")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "C1")
 					(unit 1)
@@ -10568,7 +11272,7 @@
 			(uuid "e1bfc633-ea9f-4e1c-818d-2a95fe2d6712")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR09")
 					(unit 1)
@@ -10638,7 +11342,7 @@
 			(uuid "2ef2a297-2691-48be-b940-90332d454a06")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "D12")
 					(unit 1)
@@ -10708,9 +11412,75 @@
 			(uuid "3a8675f0-90f4-4a83-a1f6-8c7a6bdb43ae")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c936666f-3f00-4907-805b-c5ae8fe9af47")
+		(property "Reference" "#PWR015"
+			(at 245.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "291a770b-c3a0-4a20-84bb-ebabc87db7f7")
+		)
+		(instances
+			(project "Version-04-03-2024"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10778,7 +11548,7 @@
 			(uuid "309e4f1b-b856-4295-8345-ebd7e07165ff")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R36")
 					(unit 1)
@@ -10844,7 +11614,7 @@
 			(uuid "3046639c-da88-4d76-90e6-63c83aa0e04d")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR024")
 					(unit 1)
@@ -10910,9 +11680,76 @@
 			(uuid "ff89d3f3-42a6-47aa-839d-7be3f79bbb8e")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 238.76 69.85 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d45d57e0-6f25-40dc-abbf-e3b6f895834a")
+		(property "Reference" "H4"
+			(at 241.3 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3 Hole"
+			(at 241.3 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 238.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 238.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "441e3362-db5e-4c48-b804-0ebff3f9f896")
+		)
+		(instances
+			(project "Version-04-03-2024"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -10976,7 +11813,7 @@
 			(uuid "4fefd72b-5c1a-4393-9be6-62729111082c")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "#PWR036")
 					(unit 1)
@@ -11060,7 +11897,7 @@
 			(uuid "86ff1b6c-807c-44b7-9c06-0ac86782c21f")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "U6")
 					(unit 1)
@@ -11127,7 +11964,7 @@
 			(uuid "e3cde68e-97dc-4961-bb07-d719621e4820")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R35")
 					(unit 1)
@@ -11199,7 +12036,7 @@
 			(uuid "fcff2b64-bfe1-4212-9f7a-d3c348728384")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "D2")
 					(unit 1)
@@ -11269,9 +12106,76 @@
 			(uuid "86f8af93-c6bb-4d67-bed6-2a2f4f4879f0")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 238.76 25.4 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e670a10b-8244-4aa3-95bc-20b61103488e")
+		(property "Reference" "H1"
+			(at 241.3 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3 Hole"
+			(at 241.3 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 238.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 238.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab280670-320e-4693-9bc8-33d99fac2beb")
+		)
+		(instances
+			(project "Version-04-03-2024"
+				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -11338,7 +12242,7 @@
 			(uuid "8306bfd1-fe30-48de-a79a-18658185f3ee")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "C4")
 					(unit 1)
@@ -11408,7 +12312,7 @@
 			(uuid "5dc5f9a0-2910-42a4-bfb4-6487615a6229")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R1")
 					(unit 1)
@@ -11476,7 +12380,7 @@
 			(uuid "3827020d-133e-4cdf-b82f-efed1c74995a")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "R39")
 					(unit 1)
@@ -11544,7 +12448,7 @@
 			(uuid "22d69bbe-cc32-4b97-b9e4-90a850ea7dba")
 		)
 		(instances
-			(project "SurgicalLightBatteryModule"
+			(project "Version-04-03-2024"
 				(path "/352d7abe-fc72-4473-8b68-62eecf44f496"
 					(reference "L2")
 					(unit 1)
