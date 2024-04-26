@@ -460,7 +460,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Version-04-03-2024.kicad_pro",
+    "filename": "LightBatteryModule-04-05-2024.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -503,11 +503,7 @@
     "meta": {
       "version": 3
     },
-    "net_colors": {
-      "Net-(D1-K)": "rgb(10, 255, 8)",
-      "Net-(D5-K)": "rgb(255, 210, 12)",
-      "Net-(Q3-E)": "rgb(10, 128, 0)"
-    },
+    "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": []
   },

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.0,
-          "height": 3.0,
-          "width": 3.0
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -118,7 +118,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.3,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.2,
         "min_hole_clearance": 0.3,
@@ -188,8 +188,7 @@
         0.25,
         0.3,
         0.5,
-        1.0,
-        6.0
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -460,7 +459,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Version-04-03-2024.kicad_pro",
+    "filename": "SurgicalLightBatteryModule (first version).kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -503,11 +502,7 @@
     "meta": {
       "version": 3
     },
-    "net_colors": {
-      "Net-(D1-K)": "rgb(10, 255, 8)",
-      "Net-(D5-K)": "rgb(255, 210, 12)",
-      "Net-(Q3-E)": "rgb(10, 128, 0)"
-    },
+    "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": []
   },
